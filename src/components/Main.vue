@@ -197,12 +197,10 @@
 
         axios.get(`https://api.djnd.si/sign/?email=${this.email}`)
           .then((response) => {
-            console.log(response);
             this.sent = true;
           })
           .catch((error) => {
             alert('Ups, prišlo je do napake. Prosim poizkusi še enkrat.')
-            console.log(error);
           });
 
         if (!this.errors.length) {
