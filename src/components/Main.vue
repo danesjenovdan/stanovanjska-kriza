@@ -195,15 +195,13 @@
           return;
         }
 
-        axios.post('https://djapi.knedl.si/sign/', {
-          email: this.email
-        })
+        axios.get(`https://api.djnd.si/sign/?email=${this.email}`)
           .then((response) => {
             console.log(response);
             this.sent = true;
           })
           .catch((error) => {
-            this.sent = true;
+            alert('Ups, prišlo je do napake. Prosim poizkusi še enkrat.')
             console.log(error);
           });
 
@@ -373,7 +371,7 @@
     background-size: contain;
     background-position: bottom center;
     background-repeat: no-repeat;
-    background-image: url("../assets/building-1.png");
+    background-image: url("../assets/student.png");
     bottom: 0;
     right: 50px;
   }
@@ -424,7 +422,7 @@
     background-size: contain;
     background-position: bottom center;
     background-repeat: no-repeat;
-    background-image: url("../assets/room.png");
+    background-image: url("../assets/highrent1.png");
     bottom: 0;
     left: -250px;
   }
@@ -448,7 +446,7 @@
     background-size: contain;
     background-position: bottom center;
     background-repeat: no-repeat;
-    background-image: url("../assets/building-2.png");
+    background-image: url("../assets/gdp1.png");
     bottom: 0;
     left: -250px;
   }
