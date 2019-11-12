@@ -144,7 +144,7 @@
             </form>
             <div @click="checkForm()" class="cta-submit-button" v-if="!sent">ODDAJ</div>
             <div v-if="!sent" class="gdpr-label">Z oddajo se strinjaš, da "Danes je nov dan" shrani tvoj mail in ga
-              posreduje "Kje bomo pa jutri spali"? Ko ga posredujemo, ga bomo na svoji strani pobrisali.
+              posreduje "Kje bomo pa jutri spali?". Ko ga posredujemo, ga bomo na svoji strani pobrisali.
             </div>
             <div v-if="sent" class="sent-notice">Hvala za prijavo!</div>
           </div>
