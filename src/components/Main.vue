@@ -156,9 +156,9 @@
         <div style="width: 100%;">
           <div class="big-text">Več glav več ve.<br/> Deli z ostalimi!</div>
           <div class="social-container">
-            <div class="social-item social-fb"></div>
-            <div class="social-item social-twitter"></div>
-            <div class="social-item social-mail"></div>
+            <div @click="fbShare()" class="social-item social-fb"></div>
+            <div @click="twitterShare()" class="social-item social-twitter"></div>
+            <div @click="mailShare()" class="social-item social-mail"></div>
           </div>
         </div>
       </div>
@@ -181,6 +181,15 @@
       msg: String
     },
     methods: {
+      twitterShare: () => {
+        window.open('https://twitter.com/intent/tweet?text=https://stanovanjska-kriza.je/');
+      },
+      fbShare: () => {
+        window.open('https://www.facebook.com/sharer/sharer.php?u=#url');
+      },
+      mailShare: () => {
+        window.open('mailto:?subject=Stanovanjska kriza&body=https://stanovanjska-kriza.je/');
+      },
       checkForm: function (e) {
         this.errors = [];
 
@@ -586,6 +595,11 @@
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 5px;
+    cursor: pointer;
+  }
+
+  .social-item:hover {
+    opacity: 0.5;
   }
 
   .social-fb {
@@ -617,7 +631,7 @@
   .sent-notice {
     text-align: center;
     font-size: 20px;
-    padding:10px 20px;
+    padding: 10px 20px;
     border: 3px solid #fff;
   }
 
