@@ -163,7 +163,10 @@
         </div>
       </div>
 
-      <div class="end-footer">Iniciativa Kje bomo pa jutri spali? v sodelovanju z Ljudje in Danes je nov dan</div>
+      <div class="end-footer"><a target="_blank"
+                                 href="https://m.facebook.com/pages/category/Community/Kje-bomo-pa-jutri-spali-2444189115868391/">Iniciativa
+        Kje bomo pa jutri spali?</a> v sodelovanju z <a target="_blank" href="http://ljudje.si/">Ljudje</a> in <a
+              target="_blank" href="https://danesjenovdan.si/">Danes je nov dan</a></div>
     </div>
 
   </vue-scroll>
@@ -259,7 +262,11 @@
   }
 
   a {
-    color: #42b983;
+    color: #62667a;
+  }
+
+  a:hover {
+    opacity: 0.7;
   }
 
   .master-container {
@@ -616,7 +623,7 @@
 
   .end-footer {
     position: absolute;
-    bottom: 10px;
+    bottom: 100px;
     left: 0;
     width: 100%;
     text-align: center;
