@@ -112,19 +112,19 @@
           <div class="cta-item">
             <div class="cta-item-number">1.</div>
             <div class="cta-item-text">Pozanimaj se, kakšne spremembe prinaša predlog novega stanovanjskega zakona.
-              Povzetek predloga lahko prebereš tukaj.
+              Povzetek predloga lahko prebereš <a href="/Kaj%20prinaša%20SZ-2.pdf" target="_blank">tukaj</a>.
             </div>
           </div>
           <div class="cta-item">
             <div class="cta-item-number">2.</div>
-            <div class="cta-item-text">Naj odločevalci slišijo tvoj glas. Na tej povezavi lahko podaš svoje mnenje o
+            <div class="cta-item-text">Naj odločevalci slišijo tvoj glas. Na <a href="https://e-uprava.gov.si/drzava-in-druzba/e-demokracija/predlogi-predpisov/predlog-predpisa.html?id=10740" target="_blank">tej povezavi</a> lahko podaš svoje mnenje o
               novem zakonu in predloge za njegovo izboljšavo.
             </div>
           </div>
           <div class="cta-item">
             <div class="cta-item-number">3.</div>
             <div class="cta-item-text">Pridruži se iniciativi, ki si prizadeva za reševanje stanovanjske problematike.
-              Seznam dejavnih iniciativ najdeš tukaj.
+              Seznam dejavnih iniciativ najdeš <a href="/Seznam%20iniciativ.pdf" target="_blank">tukaj</a>.
             </div>
           </div>
 
