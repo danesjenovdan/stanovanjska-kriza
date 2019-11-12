@@ -143,6 +143,9 @@
                      name="email">
             </form>
             <div @click="checkForm()" class="cta-submit-button" v-if="!sent">ODDAJ</div>
+            <div v-if="!sent" class="gdpr-label">Z oddajo se strinjaš, da "Danes je nov dan" shrani tvoj mail in ga
+              posreduje "Kje bomo pa jutri spali"? Ko ga posredujemo, ga bomo na svoji strani pobrisali.
+            </div>
             <div v-if="sent" class="sent-notice">Hvala za prijavo!</div>
           </div>
 
@@ -527,6 +530,7 @@
     font-size: 20px;
     margin-top: 15px;
     font-style: italic;
+    margin-left: 10px;
   }
 
   .cta-subtitle {
@@ -640,6 +644,14 @@
     font-size: 20px;
     padding: 10px 20px;
     border: 3px solid #fff;
+  }
+
+  .gdpr-label {
+    white-space: pre-wrap;
+    font-weight: 200 !important;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #333;
   }
 
   @media screen and (max-width: 992px) {
