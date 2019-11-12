@@ -51,9 +51,8 @@
         <div>
           <div class="big-text">Stanovanjski fond je star in dotrajan
           </div>
-          <div class="small-text">Evropske države za gradnjo stanovanj v povprečju namenijo 0,5 % BDP, Slovenija pa za
-            stanovanjsko področje v celoti nameni le 0,04 % BDP. V proračunu za 2020-21 za gradnjo stanovanj ni
-            predvidenega niti centa.
+          <div class="small-text">62 % slovenskih stanovanj je starejših od 40 let in potrebnih prenove. Približno
+            tretjina gospodinjstev se sooča z energetsko revščino in življenjem v za bivanje neprimernih stanovanjih.
           </div>
           <div class="arrows-after-text"></div>
         </div>
@@ -168,7 +167,7 @@
 
       <div class="end-footer"><a target="_blank"
                                  href="https://m.facebook.com/pages/category/Community/Kje-bomo-pa-jutri-spali-2444189115868391/">Iniciativa
-        Kje bomo pa jutri spali?</a> v sodelovanju z <a target="_blank" href="http://ljudje.si/">Ljudje</a> in <a
+        Kje bomo pa jutri spali?</a> v sodelovanju z <a target="_blank" href="https://people.ooo/">Ljudje</a> in <a
               target="_blank" href="https://danesjenovdan.si/">Danes je nov dan</a></div>
     </div>
 
@@ -188,13 +187,15 @@
     },
     methods: {
       twitterShare: () => {
-        window.open('https://twitter.com/intent/tweet?text=https://stanovanjska-kriza.je/');
+        window.open('https://twitter.com/intent/tweet?text=Kriza je že zdavnaj tu. Preveri, kako lahko ukrepamo! #stanovanjskakrizaje');
       },
       fbShare: () => {
-        window.open('https://www.facebook.com/sharer/sharer.php?u=#url');
+        window.open('https://www.facebook.com/sharer/sharer.php?u=https://stanovanjska-kriza.je/');
       },
       mailShare: () => {
-        window.open('mailto:?subject=Stanovanjska kriza&body=https://stanovanjska-kriza.je/');
+        window.open('mailto:?subject=Kriza je že zdavnaj tu...&body=Stanovanja so čedalje težje dostopna, fond je star in dotrajan, študentje spijo v hostlih, primanjkuje nam 10.000 neprofitnih stanovanj, država pa za gradnjo ne nameni niti centa - kriza je že zdavnaj tu! \n' +
+          '%0D%0A%0D%0A' +
+          'Preveri, kako lahko ukrepamo na www.stanovanjska-kriza.je\n');
       },
       checkForm: function (e) {
         this.errors = [];
