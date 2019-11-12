@@ -662,7 +662,15 @@
     }
 
     .page-1 .building-1 {
-      opacity: 0.5;
+      opacity: 0.2;
+    }
+
+    .building-2 {
+      opacity: 0.7;
+    }
+
+    .room-1 {
+      opacity: 0.2;
     }
 
     .page-1 .section-1-container .small-text {
