@@ -63,8 +63,7 @@
           <div class="big-text">Država se ne ukvarja s stanovanjsko preskrbo
           </div>
           <div class="small-text">Evropske države za gradnjo stanovanj v povprečju namenijo 0,5 % BDP, Slovenija pa za
-            stanovanjsko področje v celoti nameni le 0,04 % BDP. V proračunu za 2020-21 za gradnjo stanovanj ni
-            predvidenega niti centa.
+            stanovanjsko področje v celoti nameni le 0,04 % BDP. V državnem proračunu za 2020-21 za gradnjo stanovanj ni predvidenega niti centa.
           </div>
           <div class="arrows-after-text"></div>
         </div>
@@ -166,7 +165,7 @@
       </div>
 
       <div class="end-footer"><a target="_blank"
-                                 href="https://m.facebook.com/pages/category/Community/Kje-bomo-pa-jutri-spali-2444189115868391/">Iniciativa
+                                 href="https://facebook.com/pages/category/Community/Kje-bomo-pa-jutri-spali-2444189115868391/">Iniciativa
         Kje bomo pa jutri spali?</a> v sodelovanju z <a target="_blank" href="https://people.ooo/">Ljudje</a> in <a
               target="_blank" href="https://danesjenovdan.si/">Danes je nov dan</a></div>
     </div>
