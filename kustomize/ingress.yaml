@@ -1,0 +1,34 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: stanovanjska-kriza
+  annotations:
+    cert-manager.io/cluster-issuer: "letsencrypt-production"
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+        - stanovanjska-kriza.djnd.si
+        - stanovanjska-kriza.danesjenovdan.si
+      secretName: stanovanjska-kriza-tls
+  rules:
+    - host: stanovanjska-kriza.djnd.si
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: stanovanjska-kriza
+                port:
+                  number: 80
+    - host: stanovanjska-kriza.danesjenovdan.si
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: stanovanjska-kriza
+                port:
+                  number: 80

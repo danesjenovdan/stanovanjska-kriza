@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stanovanjska-kriza
+  labels:
+    app: stanovanjska-kriza
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stanovanjska-kriza
+  template:
+    metadata:
+      labels:
+        app: stanovanjska-kriza
+    spec:
+      containers:
+        - name: stanovanjska-kriza
+          image: stanovanjska-kriza
+          ports:
+            - containerPort: 80
