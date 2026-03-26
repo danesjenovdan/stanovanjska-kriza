@@ -8,4 +8,4 @@ resources:
 images:
   - name: stanovanjska-kriza
     newName: rg.fr-par.scw.cloud/djnd/stanovanjska-kriza
-    newTag: '7683b69f0d2397752c698b3de0dcc8bcf59c3c0d'
+    newTag: 'ef8bbdef37115f2cb424719207ddb2c5d85c14bc'
